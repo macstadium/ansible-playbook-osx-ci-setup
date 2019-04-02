@@ -1,7 +1,7 @@
 - hosts: targets
   gather_facts: false
   roles:
-    - role: macstadium.osx-ci
-      tags: ['osx-ci']
+    - role: macstadium.osx_ci
+      tags: ['osx_ci']
     - role: macstadium.xcode
       tags: ['xcode']
