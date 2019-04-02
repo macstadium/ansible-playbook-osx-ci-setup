@@ -35,7 +35,7 @@ will install:
 * pip
 * Ansible
 
-Both roles come from [Ansible Galaxy][https://galaxy.ansible.com/]. In order to install them you need to run:
+Both roles come from [Ansible Galaxy][galaxy]. In order to install them you need to run:
 
     ansible-galaxy install -r requirements.yml
 
