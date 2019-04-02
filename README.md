@@ -1,6 +1,7 @@
 # Ansible Playbook: Setup OSX/iOS CI Environment
 
 ![GPL-3.0 licensed][badge-license]
+[![Build Status](https://travis-ci.org/macstadium/ansible-playbook-osx-ci-setup.svg?branch=master)](https://travis-ci.org/macstadium/ansible-playbook-osx-ci-setup)
 
 This playbook uses two roles:
 
