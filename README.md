@@ -101,5 +101,5 @@ This playbook was created in 2019 by [MacStadium, Inc][macstadium].
 [fastlane]: https://fastlane.tools/
 [cocoapods]: https://cocoapods.org/
 [xcode]: https://developer.apple.com/xcode/
-[osx-ci]: https://galaxy.ansible.com/macstadium/osx-ci
+[osx-ci]: https://galaxy.ansible.com/macstadium/osx_ci
 [xcode-role]: https://galaxy.ansible.com/macstadium/xcode
