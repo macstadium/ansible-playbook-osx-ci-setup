@@ -18,12 +18,12 @@ They setup a CI user and install and configure common tools used for OSX/iOS CI 
 * [Xcode][xcode]
 
 The default role inventory targets `localhost` (found in [`inventory/main`](inventory/main)). This means that the playbook should be executed on the machine that needs to be configured.
-If you want to execute the playbook remotely you need to provide another Ansible inventory. Detailed description what is an inventory and how to use it can be found in the [Ansible documentation][inventory]
+If you want to execute the playbook remotely, you will need to provide another Ansible inventory. You can find a detailed description of what an inventory is and how to use it in the [Ansible documentation][inventory]
 
 ## Requirements
 
 The playbook requires [Ansible][ansible] to be installed on both the host and the target machine.
-In the default setup the host and target machine are the same.
+In the default setup, the host and target machine are one and the same.
 You can find a configuration bash script in [`scripts/ansible_setup.sh`](scripts/ansible_setup.sh).
 
 Running
@@ -35,7 +35,7 @@ will install:
 * pip
 * Ansible
 
-Both roles come from [Ansible Galaxy][galaxy]. In order to install them you need to run:
+Both roles come from [Ansible Galaxy][galaxy]. In order to install them, you need to run:
 
     ansible-galaxy install -r requirements.yml
 
